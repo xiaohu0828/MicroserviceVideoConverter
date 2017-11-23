@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "MicroserviceVideoConverter", "MicroserviceVideoConverter\MicroserviceVideoConverter.sfproj", "{6F2E0755-EFD7-4C57-A636-55A59BDF5AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationMiddlewareMicroService", "IntegrationMiddlewareMicroService\IntegrationMiddlewareMicroService.csproj", "{FECD022D-71E4-48CD-A77B-19BDC09B5105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranscodingMicroService", "TranscodingMicroService\TranscodingMicroService.csproj", "{0FEB838A-F4B9-4404-A64E-C3FE0E600C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServiceCommon", "MicroServiceCommon\MicroServiceCommon.csproj", "{09835167-D440-45A5-956B-E2D5E2C63583}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F2E0755-EFD7-4C57-A636-55A59BDF5AD2}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{6F2E0755-EFD7-4C57-A636-55A59BDF5AD2}.Debug|x64.ActiveCfg = Debug|x64
+		{6F2E0755-EFD7-4C57-A636-55A59BDF5AD2}.Debug|x64.Build.0 = Debug|x64
+		{6F2E0755-EFD7-4C57-A636-55A59BDF5AD2}.Debug|x64.Deploy.0 = Debug|x64
+		{6F2E0755-EFD7-4C57-A636-55A59BDF5AD2}.Release|Any CPU.ActiveCfg = Release|x64
+		{6F2E0755-EFD7-4C57-A636-55A59BDF5AD2}.Release|x64.ActiveCfg = Release|x64
+		{6F2E0755-EFD7-4C57-A636-55A59BDF5AD2}.Release|x64.Build.0 = Release|x64
+		{6F2E0755-EFD7-4C57-A636-55A59BDF5AD2}.Release|x64.Deploy.0 = Release|x64
+		{FECD022D-71E4-48CD-A77B-19BDC09B5105}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{FECD022D-71E4-48CD-A77B-19BDC09B5105}.Debug|x64.ActiveCfg = Debug|x64
+		{FECD022D-71E4-48CD-A77B-19BDC09B5105}.Debug|x64.Build.0 = Debug|x64
+		{FECD022D-71E4-48CD-A77B-19BDC09B5105}.Debug|x64.Deploy.0 = Debug|x64
+		{FECD022D-71E4-48CD-A77B-19BDC09B5105}.Release|Any CPU.ActiveCfg = Release|x64
+		{FECD022D-71E4-48CD-A77B-19BDC09B5105}.Release|x64.ActiveCfg = Release|x64
+		{FECD022D-71E4-48CD-A77B-19BDC09B5105}.Release|x64.Build.0 = Release|x64
+		{0FEB838A-F4B9-4404-A64E-C3FE0E600C90}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{0FEB838A-F4B9-4404-A64E-C3FE0E600C90}.Debug|x64.ActiveCfg = Debug|x64
+		{0FEB838A-F4B9-4404-A64E-C3FE0E600C90}.Debug|x64.Build.0 = Debug|x64
+		{0FEB838A-F4B9-4404-A64E-C3FE0E600C90}.Release|Any CPU.ActiveCfg = Release|x64
+		{0FEB838A-F4B9-4404-A64E-C3FE0E600C90}.Release|x64.ActiveCfg = Release|x64
+		{0FEB838A-F4B9-4404-A64E-C3FE0E600C90}.Release|x64.Build.0 = Release|x64
+		{09835167-D440-45A5-956B-E2D5E2C63583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09835167-D440-45A5-956B-E2D5E2C63583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09835167-D440-45A5-956B-E2D5E2C63583}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{09835167-D440-45A5-956B-E2D5E2C63583}.Debug|x64.Build.0 = Debug|Any CPU
+		{09835167-D440-45A5-956B-E2D5E2C63583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09835167-D440-45A5-956B-E2D5E2C63583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09835167-D440-45A5-956B-E2D5E2C63583}.Release|x64.ActiveCfg = Release|Any CPU
+		{09835167-D440-45A5-956B-E2D5E2C63583}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
